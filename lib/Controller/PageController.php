@@ -8,14 +8,14 @@ use OCP\AppFramework\Http\DataResponse;
 use OCP\AppFramework\Controller;
 
 class PageController extends Controller {
-	private $userId;
+	private string $userId;
 
 	/** @var IURLGenerator */
-	private $urlGenerator;
+	private IURLGenerator $urlGenerator;
 
-	public function __construct($AppName, IRequest $request, $UserId, IURLGenerator $urlGenerator){
+	public function __construct(string $AppName, IRequest $request, ?string $UserId, IURLGenerator $urlGenerator){
 		parent::__construct($AppName, $request);
-		$this->userId = $UserId;
+		$this->userId = $UserId ?? '';
 		$this->urlGenerator = $urlGenerator;
 	}
 
