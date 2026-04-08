@@ -37,8 +37,7 @@
 </template>
 
 <script>
-import { AlphaTabApi } from 'alphatab';
-import 'alphasynth';
+import { AlphaTabApi } from '@coderline/alphatab';
 
 export default {
   name: 'App',

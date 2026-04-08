@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "vue": "^3.4.0",
-    "alphatab": "^1.4.0",
-    "alphasynth": "^1.0.0"
+    "@coderline/alphatab": "^1.4.0"
   },
   "devDependencies": {
     "webpack": "^5.89.0",

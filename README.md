@@ -15,8 +15,8 @@ This requires the following things to be present:
 * npm: for building and testing everything JS, only required if a package.json is placed inside the **js/** folder
 
 AlphaTab / AlphaSynth 공식 소스:
-* https://github.com/AlphaTab/AlphaTab
-* https://github.com/AlphaTab/AlphaSynth
+* https://github.com/CoderLine/alphaTab
+* https://github.com/CoderLine/alphaSynth
 
 The make command will install or update Composer dependencies if a composer.json is present and also **npm run build** if a package.json is present in the **js/** folder. The npm **build** script should use local paths for build systems and package managers, so people that simply want to build the app won't need to install npm libraries globally, e.g.:
 
